@@ -218,6 +218,8 @@ export default defineConfig({
 		],
 	},
 	vite: {
+		assetsInclude: ['**/*.tif', '**/*.tiff'],
+		
 		plugins: [
 			tailwindcss(),
 		],

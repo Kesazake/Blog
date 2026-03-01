@@ -155,9 +155,6 @@ importers:
       satori:
         specifier: ^0.19.2
         version: 0.19.2
-      sharp:
-        specifier: ^0.34.5
-        version: 0.34.5
       stylus:
         specifier: ^0.64.0
         version: 0.64.0
@@ -210,9 +207,15 @@ importers:
       postcss-nesting:
         specifier: ^14.0.0
         version: 14.0.0(postcss@8.5.6)
+      sharp:
+        specifier: ^0.34.5
+        version: 0.34.5
       tailwindcss:
         specifier: ^4.2.1
         version: 4.2.1
+      vite-plugin-image-optimizer:
+        specifier: ^2.0.3
+        version: 2.0.3(sharp@0.34.5)(svgo@4.0.0)(vite@6.4.1(@types/node@25.3.3)(jiti@2.6.1)(lightningcss@1.31.1)(stylus@0.64.0)(terser@5.46.0)(yaml@2.8.2))
 
 packages:
 
@@ -2079,6 +2082,10 @@ packages:
 
   ansi-align@3.0.1:
     resolution: {integrity: sha512-IOfwwBF5iczOjp/WeY4YxyjqAFMQoZufdQWDd19SEExbVLNXqvpzSJ/M7Za4/sCPmQ0+GRquoA7bGcINcxew6w==}
+
+  ansi-colors@4.1.3:
+    resolution: {integrity: sha512-/6w/C21Pm1A7aZitlI5Ni/2J6FFQN8i1Cvz3kHABAAbw93v/NlvKdVOqz7CCWz/3iv/JplRSEEZ83XION15ovw==}
+    engines: {node: '>=6'}
 
   ansi-regex@2.1.1:
     resolution: {integrity: sha512-TIGnTpdo+E3+pCyAluZvtED5p5wCqLdezCyhPZzKPcxvFplEt4i+W7OONCKgeZFT3+y5NZZfOOS/Bdcanm1MYA==}
@@ -5157,6 +5164,19 @@ packages:
   vfile@6.0.3:
     resolution: {integrity: sha512-KzIbH/9tXat2u30jf+smMwFCsno4wHVdNmzFyL+T/L3UGqqk6JKfVqOFOZEpZSHADH1k40ab6NUIXZq422ov3Q==}
 
+  vite-plugin-image-optimizer@2.0.3:
+    resolution: {integrity: sha512-1vrFOTcpSvv6DCY7h8UXab4wqMAjTJB/ndOzG/Kmj1oDOuPF6mbjkNQoGzzCEYeWGe7qU93jc8oQqvoJ57al3A==}
+    engines: {node: '>=18.17.0'}
+    peerDependencies:
+      sharp: '>=0.34.0'
+      svgo: '>=4'
+      vite: '>=5'
+    peerDependenciesMeta:
+      sharp:
+        optional: true
+      svgo:
+        optional: true
+
   vite@6.4.1:
     resolution: {integrity: sha512-+Oxm7q9hDoLMyJOYfUYBuHQo+dkAloi33apOPP56pzj+vsdJDzr+j1NISE5pyaAuKL4A3UD34qd0lx5+kfKp2g==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
@@ -7469,6 +7489,8 @@ snapshots:
   ansi-align@3.0.1:
     dependencies:
       string-width: 4.2.3
+
+  ansi-colors@4.1.3: {}
 
   ansi-regex@2.1.1: {}
 
@@ -11454,6 +11476,15 @@ snapshots:
     dependencies:
       '@types/unist': 3.0.3
       vfile-message: 4.0.3
+
+  vite-plugin-image-optimizer@2.0.3(sharp@0.34.5)(svgo@4.0.0)(vite@6.4.1(@types/node@25.3.3)(jiti@2.6.1)(lightningcss@1.31.1)(stylus@0.64.0)(terser@5.46.0)(yaml@2.8.2)):
+    dependencies:
+      ansi-colors: 4.1.3
+      pathe: 2.0.3
+      vite: 6.4.1(@types/node@25.3.3)(jiti@2.6.1)(lightningcss@1.31.1)(stylus@0.64.0)(terser@5.46.0)(yaml@2.8.2)
+    optionalDependencies:
+      sharp: 0.34.5
+      svgo: 4.0.0
 
   vite@6.4.1(@types/node@25.3.3)(jiti@2.6.1)(lightningcss@1.31.1)(stylus@0.64.0)(terser@5.46.0)(yaml@2.8.2):
     dependencies:
