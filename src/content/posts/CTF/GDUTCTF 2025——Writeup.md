@@ -7,7 +7,6 @@ tags: [CTF, Writeup, Crypto, Misc, Osint, Pwn, Reverse, Web]
 category: CTF
 licenseName: "CC BY-NC-SA 4.0"
 draft: false
-image: https://static.wixstatic.com/media/7ac599_18f833b16c5c4115a3acb3abe970c134~mv2.gif
 ---
 封面图片：《[kawaii 8bit](https://static.wixstatic.com/media/7ac599_18f833b16c5c4115a3acb3abe970c134~mv2.gif)》&emsp;|&emsp;作者：アボガド6 (Avogado6)
 
@@ -157,7 +156,7 @@ image: https://static.wixstatic.com/media/7ac599_18f833b16c5c4115a3acb3abe970c13
 >    for i, n in enumerate(n_values):
 >        p = O(tuple(random.randint(1, m-1) for _ in range(8)))
 >        q = p ** n
->                                                                                            
+>                                                                                               
 >        p_values.append(p.vector())
 >        q_values.append(q.vector())
 >    ```
@@ -195,11 +194,11 @@ image: https://static.wixstatic.com/media/7ac599_18f833b16c5c4115a3acb3abe970c13
 >    for i in range(len(p_values)):
 >        pv = p_values[i]
 >        qv = q_values[i]
->                                                                                        
+>                                                                                           
 >        # 计算范数
 >        Np = sum(x * x for x in pv) % m
 >        Nq = sum(x * x for x in qv) % m
->                                                                                        
+>                                                                                           
 >        # 使用 sympy 解离散对数
 >        try:
 >            n = sympy.ntheory.residue_ntheory.discrete_log(m, Nq, Np)
@@ -217,7 +216,7 @@ image: https://static.wixstatic.com/media/7ac599_18f833b16c5c4115a3acb3abe970c13
 >                    break
 >            if not found:
 >                print(f"Failed to find n for index {i}")
->                                                                                        
+>                                                                                           
 >    print("\nFlag + rk:", flag_bytes)
 >    print("Flag:", flag_bytes.split(b'\x00')[0])  # 提取 flag 部分
 >    ```

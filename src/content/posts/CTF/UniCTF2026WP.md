@@ -7,7 +7,6 @@ tags: [CTF, Writeup, Crypto, Misc, Pwn]
 category: CTF
 licenseName: "CC BY-NC-SA 4.0"
 draft: false
-image: ./AAACover/オフライン.avif
 ---
 封面图片：《[オフライン.avif](https://static.wixstatic.com/media/7ac599_fd27d458172444aeb4b8f26278ab5f90~mv2.jpg/v1/fill/w_539,h_701,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/7ac599_fd27d458172444aeb4b8f26278ab5f90~mv2.jpg)》&emsp;|&emsp;作者：アボガド6 (Avogado6)
 
