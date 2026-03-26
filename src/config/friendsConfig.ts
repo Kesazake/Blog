@@ -52,6 +52,15 @@ export const friendsConfig: FriendLink[] = [
 		weight: 8,
 		enabled: true,
 	},
+	{
+		title: "孤蛍",
+		imgurl: "https://www.ataka.top/assets/images/ac3fac02bf48e8b5fdc404a874eaecb8.webp",
+		desc: "",
+		siteurl: "https://www.kohotaru.top/",
+		tags: ["Blog"],
+		weight: 8,
+		enabled: true,
+	},
 ];
 
 // 获取启用的友链并按权重排序
