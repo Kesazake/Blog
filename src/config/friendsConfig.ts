@@ -54,7 +54,7 @@ export const friendsConfig: FriendLink[] = [
 	},
 	{
 		title: "孤蛍",
-		imgurl: "https://www.ataka.top/assets/images/ac3fac02bf48e8b5fdc404a874eaecb8.webp",
+		imgurl: "",
 		desc: "",
 		siteurl: "https://www.kohotaru.top/",
 		tags: ["Blog"],
