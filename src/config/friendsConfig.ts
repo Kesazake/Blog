@@ -54,11 +54,20 @@ export const friendsConfig: FriendLink[] = [
 	},
 	{
 		title: "孤蛍",
-		imgurl: "",
+		imgurl: "https://www.kohotaru.top/_astro/avatar.BcAu2wMi_yT6PR.webp",
 		desc: "",
-		siteurl: "https://www.kohotaru.top/",
+		siteurl: "https://www.kohotaru.top",
 		tags: ["Blog"],
-		weight: 8,
+		weight: 7,
+		enabled: true,
+	},
+	{
+		title: "xihale",
+		imgurl: "https://xihale.top/_astro/avatar.DGynp9Uf_ZyoA79.webp",
+		desc: "I have some thoughts.",
+		siteurl: "https://xihale.top",
+		tags: ["Blog"],
+		weight: 6,
 		enabled: true,
 	},
 ];
