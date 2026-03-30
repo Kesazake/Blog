@@ -58,7 +58,7 @@ export const friendsConfig: FriendLink[] = [
 		desc: "",
 		siteurl: "https://www.kohotaru.top",
 		tags: ["Blog"],
-		weight: 7,
+		weight: 9,
 		enabled: true,
 	},
 	{
@@ -67,7 +67,16 @@ export const friendsConfig: FriendLink[] = [
 		desc: "I have some thoughts.",
 		siteurl: "https://xihale.top",
 		tags: ["Blog"],
-		weight: 6,
+		weight: 9,
+		enabled: true,
+	},
+	{
+		title: "焦茶咖啡厅",
+		imgurl: "https://tea.keqing.moe/tea.png",
+		desc: "来和焦茶染香喝杯奶茶吗？",
+		siteurl: "https://tea.keqing.moe",
+		tags: ["Blog"],
+		weight: 9,
 		enabled: true,
 	},
 ];
