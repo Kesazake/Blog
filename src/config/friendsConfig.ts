@@ -54,7 +54,7 @@ export const friendsConfig: FriendLink[] = [
 	},
 	{
 		title: "孤蛍",
-		imgurl: "https://www.kohotaru.top/_astro/avatar.BcAu2wMi_yT6PR.webp",
+		imgurl: "https://www.kohotaru.top/_astro/my_avatar.Cr_QqJX1_1LiwTq.webp",
 		desc: "",
 		siteurl: "https://www.kohotaru.top",
 		tags: ["Blog"],
