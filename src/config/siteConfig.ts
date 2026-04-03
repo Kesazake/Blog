@@ -21,10 +21,10 @@ export const siteConfig: SiteConfig = {
 
 	// 站点关键词
 	keywords: [
+		"今朝酒",
 		"Kesazake",
-		"Firefly",
-		"Fuwari",
-		"Astro",
+		"CTF",
+		"CyberChef challenge",
 		"博客",
 		"技术博客",
 		"静态博客",
