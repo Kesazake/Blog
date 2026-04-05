@@ -17,7 +17,7 @@ const quotes = [
     {text: "越是学习，越是无知 。", author: ""},
 ];
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', () => {
     const quote = quotes[Math.floor(Math.random() * quotes.length)];
     document.getElementById('quote-text').textContent = `"${quote.text}"`;
     document.getElementById('quote-author').textContent = quote.author ? `— ${quote.author}` : '';
