@@ -45,7 +45,8 @@ export const friendsConfig: FriendLink[] = [
 	},
 	{
 		title: "阿獭佧",
-		imgurl: "https://www.ataka.top/assets/images/ac3fac02bf48e8b5fdc404a874eaecb8.webp",
+		imgurl:
+			"https://www.ataka.top/assets/images/ac3fac02bf48e8b5fdc404a874eaecb8.webp",
 		desc: "我是阿獭佧，会做点傻开心的事.",
 		siteurl: "https://www.ataka.top",
 		tags: ["Blog"],

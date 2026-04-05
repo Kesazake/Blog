@@ -16,8 +16,7 @@ export const siteConfig: SiteConfig = {
 	site_url: "https://kesazake.top",
 
 	// 站点描述
-	description:
-		"",
+	description: "",
 
 	// 站点关键词
 	keywords: [
