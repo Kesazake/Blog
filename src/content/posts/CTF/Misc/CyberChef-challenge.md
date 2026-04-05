@@ -10,7 +10,6 @@ licenseName: "CC BY-NC-SA 4.0"
 draft: false
 ---
 
-# CyberChef challenge
 ## #1 Hexadecimal
 
 ```html
