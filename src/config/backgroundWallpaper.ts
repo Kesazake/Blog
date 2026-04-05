@@ -38,14 +38,10 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 	src: {
 		// 桌面背景图片（支持单张或多张随机）
 		// desktop: "assets/images/DesktopWallpaper/d1.avif",
-		desktop: [
-			"/assets/images/花より弾丸.avif"
-		],
+		desktop: ["/assets/images/花より弾丸.avif"],
 		// 移动背景图片（支持单张或多张随机）
 		// mobile: "assets/images/MobileWallpaper/m1.avif",
-		mobile: [
-			"/assets/images/花より弾丸 .jpg"
-		],
+		mobile: ["/assets/images/花より弾丸 .jpg"],
 	},
 	// Banner模式特有配置
 	banner: {
@@ -104,9 +100,11 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 			},
 			url: {
 				// 桌面端原始艺术品或艺术家页面的 URL 链接
-				desktop: "https://static.wixstatic.com/media/7ac599_1e7d804eacf948a3b2497075fd483dc4~mv2.jpg/v1/fill/w_911,h_701,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/7ac599_1e7d804eacf948a3b2497075fd483dc4~mv2.jpg",
+				desktop:
+					"https://static.wixstatic.com/media/7ac599_1e7d804eacf948a3b2497075fd483dc4~mv2.jpg/v1/fill/w_911,h_701,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/7ac599_1e7d804eacf948a3b2497075fd483dc4~mv2.jpg",
 				// 移动端原始艺术品或艺术家页面的 URL 链接
-				mobile: "https://static.wixstatic.com/media/7ac599_1e7d804eacf948a3b2497075fd483dc4~mv2.jpg/v1/fill/w_911,h_701,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/7ac599_1e7d804eacf948a3b2497075fd483dc4~mv2.jpg",
+				mobile:
+					"https://static.wixstatic.com/media/7ac599_1e7d804eacf948a3b2497075fd483dc4~mv2.jpg/v1/fill/w_911,h_701,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/7ac599_1e7d804eacf948a3b2497075fd483dc4~mv2.jpg",
 			},
 		},
 		// 横幅导航栏配置

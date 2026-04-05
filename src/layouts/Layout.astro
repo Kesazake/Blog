@@ -6,6 +6,7 @@ import FontManager from "@components/features/FontManager.astro";
 import MusicManager from "@components/features/MusicManager.astro";
 import SakuraEffect from "@components/features/SakuraEffect.astro";
 import ConfigCarrier from "@components/layout/ConfigCarrier.astro";
+import SpeedInsights from "@vercel/speed-insights/astro";
 
 import {
 	backgroundWallpaper,
@@ -102,6 +103,7 @@ const siteLang = lang.replace("_", "-");
     {siteConfig.analytics?.microsoftClarityId && (
             <MicrosoftClarity clarityId={siteConfig.analytics.microsoftClarityId} />
     )}
+    <SpeedInsights />
 
     <title>{pageTitle}</title>
     <meta
